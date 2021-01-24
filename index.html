@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendor/fontawesome/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>أحسب وزنك المثالي</title>
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="container col-md-4 col-11 d-flex justify-content-center align-items-center">
+            <div class="row">
+                <!-- <span></span>
+                <span></span>
+                <span></span>
+                <span></span> -->
+                <p class="title">
+                    حاسبة مؤشر كتلة الجسم (BMI) هى أداة لتقييم الوزن الطبيعى أو زيادة الوزن، ويتم تقييم الوزن من خلال إستخدام مؤشر كتلة الجسم الذى يفحص العلاقة بين طول ووزن الجسم.
+                </p>
+                <div class="form-group">
+                    <form id="calc">
+                        <label for="weight">الوزن</label>
+                        <input type="number" class="form-control" name="weight" id="weight" aria-describedby="helpId" placeholder="بالكيلوجرام" />
+                        <label for="height">الطول</label>
+                        <input type="number" class="form-control" name="height" id="height" aria-describedby="helpId" placeholder="بالسنتيمتر" />
+                    </form>
+                </div>
+                <div class="calcResult">
+                    <!-- BMI Quick Result -->
+                    <section class="calc bmiCalc">
+                        <div id="bmiProgressbar" class="bmiProgressbar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                            <div class="underWeight bmiPart">
+                                <span></span>
+                                <p>وزن ناقص</p>
+                            </div>
+                            <div class="normal bmiPart">
+                                <span></span>
+                                <p>وزن صحى</p>
+                            </div>
+                            <div class="overWeight bmiPart">
+                                <span></span>
+                                <p>وزن زائد</p>
+                            </div>
+                            <div class="obese bmiPart">
+                                <span></span>
+                                <p>سمنة</p>
+                            </div>
+                            <div class="extraObese bmiPart">
+                                <span></span>
+                                <p>سمنة مفرطة</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Personal Advice -->
+                    <section class="personalAdvice">
+                        <div class="ttl">
+                            <h2>
+                                نصائح شخصية
+                            </h2>
+                        </div>
+                        <div class="cnts">
+
+                            <div class="details">
+                                <p>ماذا لو كان بإمكانك تناول الكعك و فقدان الوزن؟ يعدك النظام الغذائي الذي يسمى سيكو (CICO)؛ اختصار لمصطلح "السعرات الحرارية الداخلة، السعرات الحرارية الخارجة" بذلك.</p>
+                                <p>مبدأ النظام الغذائي واضح جدًا: تناول كل ما تريد بما في ذلك من وجبات سريعة وأنقص وزنك طالما تحرق سعرات حرارية أكثر مما تستهلك كل يوم.</p>
+                                <p>لأنه بإمكانك تناول كل ما تريد و أي شئ تريد،حيث أنه كل ما يهم هو مجموع السعرات الحرارية، لا يوافق خبراء التغذية على هذه الحمية.</p>
+                                <p>الصحة ليست عبارة عن مجرد فقدان الوزن وحده. عليك النظر إلى الحزمة بأكملها، قد تفقد الوزن فعلا من خلال اتباعك لهذا النظام الغذائي و لكن هناك جانب سلبي وهو نقص المغذيات أو حتى سوء التغذية.</p>
+                                <p>يشير خبراء التغذية إلى أهمية تناول الأطعمة الصحية مثل البروكلي، جوز البيكان، التوت، المعكرونة وزيت الزيتون، بدلا من اتباع نظام غذائي مجنون.</p>
+                                <p>يشير خبراء التغذية إلى أن أفضل حل لفقدان الوزن هو من خلال المزج بين الأكل الصحي و ممارسة الرياضة. قم بتخفيض كمية السعرات الحرارية عن طريق تقليل كمية و حجم الوجبة، بالإضافة إلى ممارسة الرياضة بانتظام بما لا يقل عن خمسة إلى
+                                    ستة أيام في الأسبوع.</p>
+                                <p>لإنقاص الوزن عن طريق ممارسة الرياضة قم بممارسة تمارين القلب والأوعية الدموية -مثل المشي بسرعة أو الجري و ركوب الدراجات والسباحة – وتمارين المقاومة.</p>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+                <footer>
+                    <ul class="icons">
+                        <li><a target="_blank" href="https://twitter.com/DevMohamedAli" class=" fab fa-twitter">Twitter</a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/DevMohamedAli" class="fab fa-instagram">Instagram</a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/devmohamedali/" class="fab fa-facebook">Facebook</a></li>
+                    </ul>
+                </footer>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "bmi-clac",
+  "version": "1.0.0",
+  "description": "Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. Enter your weight and height",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run dev",
+    "dev": "lite-server"
+  },
+  "author": "mohammed ali",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+    
+  }
+}
